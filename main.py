@@ -22,7 +22,8 @@ def welcome(message):
     global counter
 
     #sticker
-    sticker = open('/Users/supreme/Desktop/test_bot/sticker.webp', 'rb')
+    #sticker = open('/Users/supreme/Desktop/test_bot/sticker.webp', 'rb')
+    sticker = open('/sticker.webp', 'rb')
     bot.send_sticker(message.chat.id, sticker)
 
     #keyboard 
